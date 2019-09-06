@@ -15,6 +15,4 @@
 	'images': ['static/images/zk_screenshot.png'],
     "active": True,
     "installable": True,
-    'currency': '',
-    'price': '',
 }
