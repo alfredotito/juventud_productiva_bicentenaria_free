@@ -12,7 +12,7 @@
 				"secuirty/res_groups.xml",
 				"secuirty/ir.model.access.csv"
 			],
-	'images': ['static/images/zk_screenshot.png'],
+	'images': ['static/images/zk_screenshot.jpg'],
     "active": True,
     "installable": True,
 }
