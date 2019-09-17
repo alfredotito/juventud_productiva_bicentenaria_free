@@ -13,6 +13,7 @@
     'author': "JUVENTUD PRODUCTIVA VENEZOLANA",
     'website': "http://www.juventudproductivabicentenaria.com",
     'category': 'Performance',
+    'license': 'AGPL-3',
     'version': '0.1',
     'depends': ['base'],
     'data': [
