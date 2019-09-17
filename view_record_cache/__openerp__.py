@@ -14,6 +14,7 @@
     'website': "http://www.juventudproductivabicentenaria.com",
     'category': 'Performance',
     'version': '0.1',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv'
