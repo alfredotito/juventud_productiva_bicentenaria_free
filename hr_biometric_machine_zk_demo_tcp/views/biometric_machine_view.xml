@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="view_zk_machine_demo_udp_form" model="ir.ui.view">
+        <record id="view_zk_machine_form" model="ir.ui.view">
 		<field name="name">zk.machine.form</field>
-		<field name="model">zk.machine.demo.udp</field>
+		<field name="model">zk.machine.demo</field>
 		<field name="type">form</field>
 		<field name="arch" type="xml">
 		<form string="Zk Machine">
@@ -25,9 +25,9 @@
 		</field>
 	</record>
 
-	<record id="view_zk_machine_demo_udp_tree" model="ir.ui.view">
+	<record id="view_zk_machine_tree" model="ir.ui.view">
 		<field name="name">zk.machine.tree</field>
-		<field name="model">zk.machine.demo.udp</field>
+		<field name="model">zk.machine.demo</field>
 		<field name="type">tree</field>
 		<field name="arch" type="xml">
 			<tree string="Zk Machine">
@@ -37,15 +37,15 @@
 	</record>
 
 	
-	<record id="attendance_machine_demo_udp_action" model="ir.actions.act_window">
+	<record id="attendance_machine_action" model="ir.actions.act_window">
             <field name="name">Attendances</field>
-            <field name="res_model">zk.machine.demo.udp</field>
+            <field name="res_model">zk.machine.demo</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
 
 
-    	<menuitem id="attendance_machine_menu_demo_udp" name="Attendance Machine Demo" action="attendance_machine_demo_udp_action" parent="hr.menu_hr_root" sequence="20"/>
+    	<menuitem id="attendance_machine_menu" name="Attendance Machine" action="attendance_machine_action" parent="hr.menu_hr_root" sequence="20"/>
 	
 	
 	
