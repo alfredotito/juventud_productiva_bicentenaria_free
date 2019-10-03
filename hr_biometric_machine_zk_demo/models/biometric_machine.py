@@ -32,7 +32,7 @@ class zkMachine(models.Model):
                 conn = zk.connect()
                 users = conn.get_users()
             except Exception as e:
-                raise UserError('The connection has not been achieved')
+                raise UserError('The connection has not been achieved!')
             finally:
                 if conn:
                     conn.disconnect()
