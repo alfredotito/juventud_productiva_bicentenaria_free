@@ -7,7 +7,7 @@
 
     'description': """
         This module saves the requests of the ir.ui.view object record
-        s in the cache which is a high speed data storage layer v11
+        s in the cache which is a high speed data storage layer v11.
     """,
 
     'author': "JUVENTUD PRODUCTIVA VENEZOLANA",
