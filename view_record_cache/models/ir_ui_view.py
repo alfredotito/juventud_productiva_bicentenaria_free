@@ -47,62 +47,6 @@ class View(models.Model):
                 _logCache.info('SET ir.ui.view search %s - %d ' % (key_hash, len(_cache)))
             return _cache[key_hash] if count else self.browse(_cache[key_hash])
             
-<<<<<<< HEAD
-    @api.model
-    def search_read(self, domain=None, fields=None, offset=0, limit=None, order=None,_cache={}):
-        """
-        Performs a ``search()`` followed by a ``read()``.
-
-        :param domain: Search domain, see ``args`` parameter in ``search()``. Defaults to an empty domain that will match all records.
-        :param fields: List of fields to read, see ``fields`` parameter in ``read()``. Defaults to all fields.
-        :param offset: Number of records to skip, see ``offset`` parameter in ``search()``. Defaults to 0.
-        :param limit: Maximum number of records to return, see ``limit`` parameter in ``search()``. Defaults to no limit.
-        :param order: Columns to sort result, see ``order`` parameter in ``search()``. Defaults to no sort.
-        :return: List of dictionaries containing the asked fields.
-        :rtype: List of dictionaries.
-
-        """
-        groups_id=self.env.user.groups_id.ids
-        key=str(domain)+str(fields or 'fields')+str(offset or 'offset')+str(limit or 'limit')+str(order or 'order')+str(groups_id)
-        key_hash=str(hashlib.sha1(key.encode('utf-8') or '').hexdigest())
-        if not key_hash in _cache:
-        #~ if not _cache.has_key(key_hash):
-            records = self.search(domain or [], offset=offset, limit=limit, order=order)
-            if not records:
-                if not self.env.context.get('install_mode') and self.env.context.get('website_id'):
-                    _cache[key_hash]=[]
-                return []
-
-            if fields and fields == ['id']:
-                # shortcut read if we only want the ids
-                if not self.env.context.get('install_mode') and self.env.context.get('website_id'):
-                    _cache[key_hash]=[{'id': record.id} for record in records]
-                return [{'id': record.id} for record in records]
-
-            # read() ignores active_test, but it would forward it to any downstream search call
-            # (e.g. for x2m or function fields), and this is not the desired behavior, the flag
-            # was presumably only meant for the main search().
-            # TODO: Move this to read() directly?
-            if 'active_test' in self._context:
-                context = dict(self._context)
-                del context['active_test']
-                records = records.with_context(context)
-
-            result = records.read(fields)
-            if len(result) <= 1:
-                if not self.env.context.get('install_mode') and self.env.context.get('website_id'):
-                    _cache[key_hash]=result
-                return result
-
-            # reorder read
-            index = {vals['id']: vals for vals in result}
-            _logCache.debug('SET ir.ui.view search_read %s - %d ' % (key_hash, len(_cache)))
-            if not self.env.context.get('install_mode') and self.env.context.get('website_id'):
-                _cache[key_hash]=[index[record.id] for record in records if record.id in index]
-        if not self.env.context.get('install_mode') and self.env.context.get('website_id'):
-           return _cache[key_hash]
-        return [index[record.id] for record in records if record.id in index]
-=======
     #~ @api.model
     #~ def search_read(self, domain=None, fields=None, offset=0, limit=None, order=None,_cache={}):
         #~ """
@@ -157,7 +101,6 @@ class View(models.Model):
         #~ if not self.env.context.get('install_mode') and self.env.context.get('website_id'):
            #~ return _cache[key_hash]
         #~ return [index[record.id] for record in records if record.id in index]
->>>>>>> 869b4b4d5f34ccc0c05adf983e55e052bb87de9b
     
     @api.multi
     def read(self, fields=None, load='_classic_read',_cache={}):
