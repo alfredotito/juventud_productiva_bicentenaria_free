@@ -3,10 +3,6 @@ class ZKError(Exception):
     pass
 
 
-class ZKErrorConnection(ZKError):
-    pass
-
-
 class ZKErrorResponse(ZKError):
     pass
 
