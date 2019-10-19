@@ -17,7 +17,7 @@ _logger = logging.getLogger(__name__)
 
 
 class zkMachine(models.Model):
-    _name= 'zk.machine.demo.udp'
+    _name= 'zk.machine.demo'
     
     name =  fields.Char("Machine IP")
     port =  fields.Integer("Port Number")
@@ -32,7 +32,7 @@ class zkMachine(models.Model):
                 conn = zk.connect()
                 users = conn.get_users()
             except Exception as e:
-                raise UserError('The connection has not been achieved!')
+                raise UserError('The connection has not been achieved')
             finally:
                 if conn:
                     conn.disconnect()

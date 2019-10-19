@@ -1,5 +1,5 @@
 {
-    "name" : "ZK Biometric Device Integration Kware (ZKTECO) Demo (UDP)",
+    "name" : "ZK Biometric Device Integration Kware (ZKTECO) Demo",
     "version" : "1.0",
     "author" : "JUVENTUD PRODUCTIVA VENEZOLANA",
     "category" : "HR",
