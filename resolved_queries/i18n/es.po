@@ -1,0 +1,348 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* resolved_queries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 13:51+0000\n"
+"PO-Revision-Date: 2019-10-17 13:51+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_form
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_wizard_form
+msgid "Clear log file"
+msgstr "Borrar archivo de registro"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_create_uid
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_create_uid
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_create_date
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_create_date
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: resolved_queries
+#: selection:resolved.queries,prefix:0
+msgid "DELETE"
+msgstr "DELETE"
+
+#. module: resolved_queries
+#: model:ir.actions.act_window,name:resolved_queries.data_resolved_queries_wizard_action
+msgid "Data Resolved Queries"
+msgstr "Consultas de datos resueltos"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Data for the cache web base module."
+msgstr "Datos para el módulo cache web base."
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Data for the module Ir ui view cache."
+msgstr "Datos para el módulo Ir ui view cache."
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Data for the website base cache module."
+msgstr "Datos para el módulo website base cache."
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_active
+msgid "Deactivate or activate grep execution in the log"
+msgstr "Desactivar o activar la ejecución de grep en el registro"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_display_name
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_display_name
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_form
+msgid "Download Odoo app modules"
+msgstr "Descargue los módulos ee la tienda de Odoo"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_wizard_query_file
+msgid "Download the file with the grep result"
+msgstr "Descargue el archivo con el resultado grep"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_query_file
+msgid "Download the file with the result"
+msgstr "Descargue el archivo con el resultado"
+
+#. module: resolved_queries
+#: selection:resolved.queries,prefix:0
+msgid "FROM"
+msgstr "FROM"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_store_fname
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_store_fname
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_query_file
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_query_file
+msgid "File Query"
+msgstr "Consulta de archivo"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_id
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_id
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries___last_update
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard___last_update
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_write_uid
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_write_uid
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_write_date
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_write_date
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: resolved_queries
+#: model:ir.actions.act_window,name:resolved_queries.resolved_queries_wizard_data_action
+#: model:ir.ui.menu,name:resolved_queries.resolved_queries_data_menu
+msgid "Load data from recommended modules"
+msgstr "Cargar datos de módulos recomendados"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_data_wizard_log_level
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_log_level
+msgid "Log level"
+msgstr "Nivel de registro"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_data_wizard_log_level
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_log_level
+msgid "Log level configuration parameter,\n"
+"                        To test the modules of go ui view cache, web base cache or website\n"
+"                        base cache, you must change the log_leve parameter in the configuration\n"
+"                        file to debug_sql"
+msgstr "Parámetro de configuración de nivel de registro,\n"
+"                        Para probar los módulos go ui view cache, web base cache or website\n"
+"                        base cache, debe cambiar el parámetro log_leve en la configuración\n"
+"                        del archivo debug_sql"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_table
+msgid "Model Table"
+msgstr "Tabla del modelo"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_model_id
+msgid "Model name"
+msgstr "Nombre del modelo"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_model_id
+msgid "Model who wants to do the test resolved queries"
+msgstr "Modelo que quiere hacer la prueba consultas resueltas"
+
+#. module: resolved_queries
+#: model:ir.ui.menu,name:resolved_queries.resolved_queries_menu
+msgid "Queries"
+msgstr "Consultas"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_prefix
+msgid "Query Prefix"
+msgstr "Prefijo de consulta"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Recommended Modules"
+msgstr "Módulos recomendados"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_search_parameter
+msgid "Regular Expression"
+msgstr "Expresión regular"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_search_parameter
+msgid "Regular search expression, you can change the regular\n"
+"                            expression, you must know about regular python expression."
+msgstr "Expresión de búsqueda regular, puede cambiar la expresión regular.\n"
+"                            Para cambiar la expresión regular debes saber sobre la expresiones regulares de Python."
+
+#. module: resolved_queries
+#: model:ir.module.category,name:resolved_queries.resolved_queries_category_group
+msgid "Resolve Queries"
+msgstr "Resolver consultas"
+
+#. module: resolved_queries
+#: model:ir.actions.act_window,name:resolved_queries.resolved_queries_action_window
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_resolved_queries_ids
+#: model:ir.ui.menu,name:resolved_queries.resolved_queries_menu_root
+#: model:ir.ui.view,arch_db:resolved_queries.view_resolved_queries_graph
+#: model:ir.ui.view,arch_db:resolved_queries.view_resolved_queries_pivot
+msgid "Resolved Queries"
+msgstr "Consultas Resueltas"
+
+#. module: resolved_queries
+#: model:ir.actions.act_window,name:resolved_queries.resolved_queries_wizard_action
+msgid "Run Resolved Queries"
+msgstr "Ejecutar consultas resueltas"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_form
+msgid "Run log search"
+msgstr "Ejecutar búsqueda de registro"
+
+#. module: resolved_queries
+#: model:ir.model,name:resolved_queries.model_resolved_queries_data_wizard
+#: model:ir.model,name:resolved_queries.model_resolved_queries_wizard
+msgid "Run resolved queries wizard"
+msgstr "Ejecute el asistente de consultas resueltas"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_wizard_form
+msgid "Run the regular expression in le log"
+msgstr "Ejecute la expresión regular en le log"
+
+#. module: resolved_queries
+#: selection:resolved.queries,prefix:0
+msgid "SELECT"
+msgstr "SELECT"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Smiley face"
+msgstr ""
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_name
+msgid "Technical name"
+msgstr "Nombre técnico"
+
+#. module: resolved_queries
+#: code:addons/resolved_queries/models/models.py:110
+#: code:addons/resolved_queries/models/models.py:178
+#, python-format
+msgid "The %s file does not have read permission."
+msgstr "El archivo %s no tiene permiso de lectura"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_form
+msgid "To test the modules of <b>ir ui view cache, web base cache or website base cache</b>, you must change the log_leve parameter in the configuration file to debug_sql"
+msgstr "Para probar los módulos de <b>ir ui view cache, web base cache o website base cache</b>, you must change the log_leve parameter in the configuration file to debug_sql"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "To test the modules of <b>ir ui view cache, web base cache or website base cache</b>, you must change the log_leve parameter in the configuration file to debug_sql<br/>"
+msgstr "To test the modules of <b>ir ui view cache, web base cache or website base cache</b>, debe cambiar el parámetro log_leve en el archivo de configuración a debug_sql<br/>"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_total
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_wizard_total
+msgid "Total Queries"
+msgstr "Consultas totales"
+
+#. module: resolved_queries
+#: model:ir.model.fields,field_description:resolved_queries.field_resolved_queries_total_row
+msgid "Total Records"
+msgstr "Registros totales"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_wizard_total
+msgid "Total matches with the search parameter used in the grep -rn 'search parameter' | wc -l."
+msgstr "Total de coincidencias con el parámetro de búsqueda utilizado en el parámetro de búsqueda grep -rn ' | wc -l."
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_total_row
+msgid "Total model records"
+msgstr "Registros totales del modelo"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_total
+msgid "Total query matching the regular expression"
+msgstr "Consulta total que coincide con la expresión regular"
+
+#. module: resolved_queries
+#: selection:resolved.queries,prefix:0
+msgid "UPDATE"
+msgstr "UPDATE"
+
+#. module: resolved_queries
+#: model:res.groups,name:resolved_queries.group_resolved_queries_user
+msgid "User"
+msgstr "Usuario"
+
+#. module: resolved_queries
+#: code:addons/resolved_queries/models/models.py:103
+#: code:addons/resolved_queries/models/models.py:171
+#, python-format
+msgid "You must configure the absolute path of the "
+msgstr "Debe configurar la ruta absoluta de la"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Youtube JPV"
+msgstr "Youtube JPV"
+
+#. module: resolved_queries
+#: model:ir.ui.view,arch_db:resolved_queries.resolved_queries_data_wizard_form
+msgid "Youtube ir ui view cache"
+msgstr "Youtube ir ui view cache"
+
+#. module: resolved_queries
+#: code:addons/resolved_queries/models/models.py:104
+#: code:addons/resolved_queries/models/models.py:172
+#, python-format
+msgid "logfile in the configuration file."
+msgstr "archivo de registro en el archivo de configuración."
+
+#. module: resolved_queries
+#: model:ir.model,name:resolved_queries.model_resolved_queries
+msgid "resolved.queries"
+msgstr "resolved.queries"
+
+#. module: resolved_queries
+#: model:ir.model.fields,help:resolved_queries.field_resolved_queries_prefix
+msgid "search prefix to be used in the grep in the log file"
+msgstr "prefijo de búsqueda que se utilizará en grep en el archivo de registro"
+
