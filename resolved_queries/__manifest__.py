@@ -9,7 +9,7 @@
         See resolved queries made to postgresql to measure performance.
     """,
 
-    'author': "JUVENTUD PRODUCTIVA BICENTENARIA",
+    'author': "JUVENTUD PRODUCTIVA VENEZOLANA",
     'website': "http://www.juventudproductivabicentenaria.com",
 
     # Categories can be used to filter modules in modules listing
